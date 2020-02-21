@@ -3,8 +3,7 @@ import "./App.css";
 import StarWarsList from "./components/StarWarsList";
 import styled from "styled-components";
 
-const Container = styled.div`
-  text-aliogn: center;
+const Container = styled.div `
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;

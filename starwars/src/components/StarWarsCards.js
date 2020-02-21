@@ -8,6 +8,9 @@ const CardCont = styled.div`
   max-height: 400px;
   border-radius: 3%;
   margin-bottom: 3%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 `;
 
 const StarWarsCard = props => {
